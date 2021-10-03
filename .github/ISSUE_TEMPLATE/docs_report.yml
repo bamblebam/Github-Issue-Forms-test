@@ -14,8 +14,7 @@ body:
     attributes:
       label: What happened?
       description: Tell us what went wrong?
-      placeholder: Tell us what you see!
-      value: "A bug happened!"
+      placeholder: A bug happened!
     validations:
       required: true
       
@@ -24,8 +23,7 @@ body:
     attributes:
       label: What was supposed to happened?
       description: Tell us what was supposed to happen?
-      placeholder: Tell us what you were expecting to see!
-      value: "A bug should not have happened!"
+      placeholder: A bug should not have happened!
       
   - type: dropdown
     id: browsers
