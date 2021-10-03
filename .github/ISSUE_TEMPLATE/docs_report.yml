@@ -12,7 +12,7 @@ body:
   - type: textarea
     id: current-behaviour
     attributes:
-      label: What happened?
+      label: Current Behaviour
       description: Tell us what went wrong?
       placeholder: A bug happened!
     validations:
@@ -21,7 +21,7 @@ body:
   - type: textarea
     id: expected-behaviour
     attributes:
-      label: What was supposed to happened?
+      label: Expected Behaviour
       description: Tell us what was supposed to happen?
       placeholder: A bug should not have happened!
       
@@ -43,6 +43,13 @@ body:
       label: Relevant log output
       description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
       render: shell
+  
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional Context
+      description: Anything else that you want to share?
+      placeholder: The bug can be solved by...
       
   - type: checkboxes
     id: terms
